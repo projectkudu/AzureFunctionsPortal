@@ -190,6 +190,13 @@ export class CommonConstants {
   public static readonly windowsCodeMountPathPrefix = '/mounts';
 
   public static isKeyVaultReference = (value: string) => value.toLocaleLowerCase().startsWith('@microsoft.keyvault(');
+
+  public static hiddenLink = 'hidden-link';
+
+  public static readonly DeploymentCenterConstants = {
+    acrTag: 'acrResourceId',
+    https: 'https://',
+  };
 }
 
 export enum WorkerRuntimeLanguages {
